@@ -1,0 +1,197 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header{
+  display:flex;
+  flex-direction: column;
+}
+
+.UpperHeader{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.Logo{
+  flex: 4;
+  display:flex;
+  font-size: larger;
+}
+
+.Menu{
+  flex: 1;
+  display: flex;
+}
+
+.Menu_Child{
+  display: flex;
+  flex: 1;
+  align-items:flex-start;
+}
+
+.Menu_Child2{
+  padding-right: 50px;
+  align-items: flex-end;
+}
+
+.LowerHeader{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.Introduction{
+  display: flex;
+  aspect-ratio: 16/9;
+  justify-content: center;
+  object-fit: cover;
+  background-image: url(../Images/Development.png);  
+}
+
+.Button_Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Button{
+  padding: 7px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.Introduction_textbox{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.TextBox_text{
+  font-size: 50px;
+}
+
+.Divider{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.Divider_Title{
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Title_Divider{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Divider_Image{
+  width: 500px;
+  height: 1px;
+
+}
+.Title_Text{
+  display: flex;
+  flex: 1;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Basic_TextBox{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.TextBox_Child{
+  font-size: 15px;
+  text-align: left;
+}
+
+.indentation{
+  padding-top: 20px;
+}
+
+.Basic_ImageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Basic_Image1{
+  height: 450px;
+  width: auto;
+}
+
+.Basic_Image2{
+  height: 200px;
+  width: auto;
+}
+
+.OtherProjects_Divider{
+  display:flex;
+  align-items:left;
+  flex-direction: column;
+}
+
+.Other_ProjectsTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.OtherProjectsTitle_Text{
+  text-align: left;
+  font-size: 20px;
+}
+
+.Other_ProjectsComponents{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Other_ProjectsChild{
+  display: flex;
+  justify-content: center; 
+  flex-direction: row;
+}
+
+.Portfolio_Box{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Portfolio_Box_Title{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Portfolio_image_container{
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.Portfolio_Image{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}

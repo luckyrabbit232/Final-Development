@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Iterative Redesign",
+        "Url": "public",
+        "image": "Images/iterative_preview.png"
+    },
+
+    {
+        "name": "Responsive Redesign",
+        "Url": "public",
+        "image": "Images/responsive_preview.png"
+    },
+
+    {
+        "name": "Story Boarding",
+        "Url": "public",
+        "image": "Images/storyboard_preview.png"
+    }
+
+]
