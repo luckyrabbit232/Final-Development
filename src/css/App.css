@@ -6,6 +6,7 @@
 .Header{
   display:flex;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .UpperHeader{
@@ -29,6 +30,7 @@
 }
 
 .Menu_Child{
+  padding-right: 50px;
   display: flex;
   flex: 1;
   align-items:flex-start;
@@ -47,9 +49,10 @@
 
 .Introduction{
   display: flex;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/6;
   justify-content: center;
   object-fit: cover;
+  background-size: 100%;
   background-image: url(../Images/Development.png);  
 }
 
@@ -82,6 +85,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 
 }
 
@@ -111,6 +115,7 @@
   padding-right: 30px;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 25px;
 }
 
 .Basic_TextBox{
@@ -121,7 +126,12 @@
 
 .TextBox_Child{
   font-size: 15px;
+  flex-direction: column; 
   text-align: left;
+  font-size: 18 px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
 }
 
 .indentation{
@@ -132,6 +142,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .Basic_Image1{
@@ -142,6 +154,12 @@
 .Basic_Image2{
   height: 200px;
   width: auto;
+}
+
+.Basic_Image3{
+  height: 450px;
+  width: auto;
+  padding-bottom: 15px;
 }
 
 .OtherProjects_Divider{
@@ -188,6 +206,8 @@
   display: block;
   text-align: center;
   justify-content: center;
+  padding-left:15px;
+  padding-right:15px;
 }
 
 .Portfolio_Image{

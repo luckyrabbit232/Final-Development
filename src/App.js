@@ -143,29 +143,23 @@ function App() {
         </div>
         <div className = "Basic_TextBox">
           <div className = "TextBox_Child">
-            <p>
-            Theory:
-            </p>
+            <b>Theory:</b>
             <p>
             Throughout the task, I tried to implement affordances for the user so 
             that navigating the webpage would be easier. For example, I placed the 
             aggregator on the right, and the filter section on the left, so that users 
             can quickly navigate to these sections whenever they need to filter or look at their cart.
             </p>
-            <div className = "indentation"></div>
-            <p>
-            Item Listing:
-            </p>
+            <b>Item Listing:</b>
             <p>
             In the center, the items are listed in the order given in the .json file. By using a mapping 
             function, the .json was read and outputted recursively in the item box. The mapping function 
             utilized a component to make the formatting regulated.
             </p>
             <div className = "Basic_ImageContainer">
-              <img src = "./Images/Main.png" className = "Basic_Image1"></img>
+              <img src = "./Images/Main.png" className = "Basic_Image3"></img>
             </div>
-            <div className = "indentation"></div>
-            <p>Aggregator:</p>
+            <b>Aggregator:</b>
             <p>
             For the aggregator, I used states to remember the number of choices made for each 
             .json item. I kept track by incrementing the number that the index of the cart state represented, 
@@ -174,19 +168,16 @@ function App() {
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Aggregator.png" className = "Basic_Image2"></img>
             </div>
-            <div className = "indentation"></div>
-            <p>Filter:</p>
+            <b>Filter:</b>
             <p>The filter function was made by creating a checking function when mapping the items, to remove any 
               items that did not fit the criteria.</p>
-            <div className = "indentation"></div>
-            <p>Sorting:</p>
+            <b>Sorting:</b>
             <p>The sorting function was done through a checking function when mapping the items again. This time, 
               the .json file was read based on the sorting criteria, and will output the items in the order of the 
               criteria.</p>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Sorting.png" className = "Basic_Image1"></img>
             </div>
-            <div className = "indentation"></div>          
           </div>
         </div>
       </div>
@@ -210,14 +201,12 @@ function App() {
             about front-end functionality using React and Javascript. I took away 
             the skills to develop a webpage locally, and to debug my webpage using npm. 
             </p>
-            <div className = "indentation"></div>
             <p>
             I felt that I could have done more on the webpage. For example, I could use checkboxes 
             to add multiple filtering conditions for the items. Moreover, I felt that I could use more 
             components, especially for the sorting and the filtering criterias, to make these choices more 
             dynamic and easier to debug. 
             </p>
-            <div className = "indentation"></div>
 
           </div>
         </div>
