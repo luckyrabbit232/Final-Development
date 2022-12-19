@@ -1,12 +1,14 @@
 .App {
   display: flex;
   flex-direction: column;
+  background-color: rgb(255, 248, 238);
+
 }
 
 .Header{
   display:flex;
   flex-direction: column;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .UpperHeader{
@@ -22,6 +24,8 @@
   flex: 4;
   display:flex;
   font-size: larger;
+  font-family: 'Gupter';
+  font-size: 20px;
 }
 
 .Menu{
@@ -30,7 +34,6 @@
 }
 
 .Menu_Child{
-  padding-right: 50px;
   display: flex;
   flex: 1;
   align-items:flex-start;
@@ -45,6 +48,8 @@
   display: flex;
   align-items: flex-start;
   padding-left: 10px;
+  font-family: "Inter";
+  font-size: 15px;
 }
 
 .Introduction{
@@ -54,6 +59,10 @@
   object-fit: cover;
   background-size: 100%;
   background-image: url(../Images/Development.png);  
+  box-shadow: 3px 15px 5px rgb(149, 149, 149);
+  border:1px solid #948d75;
+
+
 }
 
 .Button_Container{
@@ -64,10 +73,22 @@
 }
 
 .Button{
-  padding: 7px;
+  background-color: white;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: 15px;
+  padding-right: 15px;
   border: none;
   border-radius: 0px;
   cursor: pointer;
+  font-family: 'Calibri';
+  border:0.5px solid #000000;
+
+
+}
+
+.Button:hover{
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.5);
 }
 
 .Introduction_textbox{
@@ -77,8 +98,11 @@
   text-align: center;
 }
 .TextBox_text{
-  font-size: 50px;
-}
+  font-size: 40px;
+  text-shadow: -1px 1px 0 rgb(255, 255, 255),
+  1px 1px 0 rgb(0, 0, 0),
+  2px 1px 0 rgb(255, 255, 255);
+  font-family: "Calibri";}
 
 .Divider{
   display:flex;
@@ -122,16 +146,31 @@
   display:flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+
 }
 
 .TextBox_Child{
   font-size: 15px;
   flex-direction: column; 
   text-align: left;
-  font-size: 18 px;
+  font-size: 18px;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 10px;
+}
+
+.TextBoxGoal_Child{
+  display:flex;
+  flex-direction: column;
+  font-size: 18 px;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  background-color: rgb(255, 251, 246);
+  border:0.5px solid #000000;
+
 }
 
 .indentation{
@@ -166,16 +205,20 @@
   display:flex;
   align-items:left;
   flex-direction: column;
+  padding-top: 100px;
+
 }
 
 .Other_ProjectsTitle{
   display: flex;
   justify-content: center;
+  align-items: center;
+
 }
 
 .OtherProjectsTitle_Text{
   text-align: left;
-  font-size: 20px;
+  display: flex;
 }
 
 .Other_ProjectsComponents{
@@ -206,12 +249,27 @@
   display: block;
   text-align: center;
   justify-content: center;
-  padding-left:15px;
-  padding-right:15px;
+
 }
 
 .Portfolio_Image{
   height: 200px;
   width: 200px;
   cursor: pointer;
+}
+
+.Portfolio_Image:hover{
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.Hyperlink{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: "Gupter";
+}
+
+.Hyperlink:hover{
+  text-decoration: underline;
 }

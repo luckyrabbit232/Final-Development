@@ -10,7 +10,9 @@ function PortofolioBox(portfolio){
     return(
         <div className = "Portfolio_Box">
             <div className = "Portfolio_image_container">
+                <a href = {item.Url}>
                 <img src = {item.image} className = "Portfolio_Image"></img>
+                </a>
             </div>
         </div>
     )

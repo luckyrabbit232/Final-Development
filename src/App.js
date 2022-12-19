@@ -22,23 +22,20 @@ function App() {
       <div className = "Header">
         <div className = "UpperHeader">
           <div className = "Logo">
-            <b> My Portfolio</b>
+             My Portfolio
           </div>
           <div className = "Menu">
             <div className = "Menu_Child">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 Home
               </a>
             </div>
             <div className = "Menu_Child2">
-              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/">
+              <a href = "https://luckyrabbit232.github.io/Final-Portoflio/" className = "Hyperlink">
                 About Me
               </a>
             </div>
           </div>
-        </div>
-        <div className = "LowerHeader">
-          <i>Home/Development</i>
         </div>
       </div>
       <div className = "Introduction">
@@ -115,7 +112,7 @@ function App() {
           </div>
         </div>
         <div className = "Basic_TextBox">
-          <div className = "TextBox_Child">
+          <div className = "TextBoxGoal_Child">
             <p>
             The technical goals of this assignment are as follows:
             </p>
@@ -150,33 +147,42 @@ function App() {
             aggregator on the right, and the filter section on the left, so that users 
             can quickly navigate to these sections whenever they need to filter or look at their cart.
             </p>
+            </div>
+            <div className = "TextBox_Child">
             <b>Item Listing:</b>
             <p>
             In the center, the items are listed in the order given in the .json file. By using a mapping 
             function, the .json was read and outputted recursively in the item box. The mapping function 
             utilized a component to make the formatting regulated.
             </p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Main.png" className = "Basic_Image3"></img>
             </div>
+            <div className = "TextBox_Child">
             <b>Aggregator:</b>
             <p>
             For the aggregator, I used states to remember the number of choices made for each 
             .json item. I kept track by incrementing the number that the index of the cart state represented, 
             then outputting the price associated with the item.
             </p>
+            </div>
             <div className = "Basic_ImageContainer">
               <img src = "./Images/Aggregator.png" className = "Basic_Image2"></img>
             </div>
+            <div className = "TextBox_Child">
             <b>Filter:</b>
             <p>The filter function was made by creating a checking function when mapping the items, to remove any 
               items that did not fit the criteria.</p>
+              </div>
+              <div className = "TextBox_Child">
             <b>Sorting:</b>
             <p>The sorting function was done through a checking function when mapping the items again. This time, 
               the .json file was read based on the sorting criteria, and will output the items in the order of the 
               criteria.</p>
+            
             <div className = "Basic_ImageContainer">
-              <img src = "./Images/Sorting.png" className = "Basic_Image1"></img>
+              <img src = "./Images/sorting.png" className = "Basic_Image1"></img>
             </div>
           </div>
         </div>
