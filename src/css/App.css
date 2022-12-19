@@ -256,11 +256,15 @@
   height: 200px;
   width: 200px;
   cursor: pointer;
+  transition: transform .2s;
+
 }
 
 .Portfolio_Image:hover{
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  transform: scale(1.05);
+
 }
 
 .Hyperlink{
